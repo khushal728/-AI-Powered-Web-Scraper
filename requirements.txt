@@ -9,3 +9,6 @@ lxml==5.1.0
 html5lib==1.1
 xlrd==2.0.1
 xlsxwriter==3.2.0
+
+# Install spaCy English model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
