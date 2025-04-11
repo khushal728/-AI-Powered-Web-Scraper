@@ -2,6 +2,9 @@
 
 A smart and interactive web scraping tool built with Streamlit, BeautifulSoup, and NLP that lets users extract, preview, summarize, and download content from any webpage in just a few clicks — all with a stylish UI and optional AI assistance.
 
+## 🎥 Demo
+🎥 [Watch the Live Demo](https://github.com/khushal728/-AI-Powered-Web-Scraper/issues/1#issue-2988019485) 
+
 ## 🔥 Features
 ✅ URL Input & Smart Tag Detection
 
