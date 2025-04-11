@@ -9,6 +9,16 @@ import streamlit.components.v1 as components
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
+import spacy
+import subprocess
+import sys
+
+# Automatically download the model if not present
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 # Load NLP model
 nlp = spacy.load("en_core_web_sm")
